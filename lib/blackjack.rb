@@ -67,5 +67,6 @@ def runner
     card_total = hit?(card_total)
     break if total == card_total
   end
+  end_game
 end
     
