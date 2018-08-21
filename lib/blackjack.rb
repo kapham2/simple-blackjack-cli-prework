@@ -62,7 +62,7 @@ def runner
   # code runner here
   welcome
   card_total = initial_round
-  until card_total > 21 do
+  until card_total > 21
     total = card_total
     card_total = hit?(card_total)
     break if total == card_total
